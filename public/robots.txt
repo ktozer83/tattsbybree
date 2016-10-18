@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /members/
+Disallow: /css/
+Disallow: /js/
+Disallow: /img/
+Disallow: /pdf/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /register/
