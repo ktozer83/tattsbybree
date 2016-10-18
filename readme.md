@@ -7,7 +7,9 @@ This is a portfolio sitethat was built for a local tattoo artist. It allows the 
 
 ### Portfolio Management
 -Custom category CRUD.
+
 -Image upload and management where artist can decide which category to place image, or if image is public facing or not.
+
 -Artist can also set which images from their portfolio will appear on the image slider on the home page.
 
 ### Set Booking Status
