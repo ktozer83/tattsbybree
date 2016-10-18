@@ -1,27 +1,43 @@
-## Laravel PHP Framework
+# Tatts by Bree
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Overview
+This is a portfolio sitethat was built for a local tattoo artist. It allows the artist to display their work, keep track of their appointments, and have their clients request a quote or view their existing appointments.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Features
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+### Portfolio Management
+-Custom category CRUD.
+-Image upload and management where artist can decide which category to place image, or if image is public facing or not.
+-Artist can also set which images from their portfolio will appear on the image slider on the home page.
 
-## Official Documentation
+### Set Booking Status
+-Artist can set if they are booking clients or not, and if they are not, can choose the date and set a custom message for when they will be booking again.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+### Quote Request
+-By registering, clients can request a quote by inputting various information and uploading an image into the form to give the artist a good idea of what they want.
+-Artist can then set an appointment date or consultation date if needed, and give a price for a quote.
+-Artist is able to set various status' for the quote to let clients know if they're quote has been approved or not, and if they have an appointment booked or are on a waiting list.
+-Artist and client will also receive an e-mail to let them know if their quote has been updated.
 
-## Contributing
+### User Management
+-Users are able to update their settings and disable e-mail notifications.
+-Admin is able to ban users if needed, or set additional content administrators.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## Other Details
 
-## Security Vulnerabilities
+This project was built with the PHP framework [Laravel](https://www.laravel.com) [5.2.10](https://laravel.com/docs/5.2).
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+It uses [Bootstrap 3.3.6](https://getbootstrap.com/) for styling and as well as some custom rules.
 
-### License
+The following JavaScript libraries are used:
+-[jQuery 2.1.4](https://jquery.com/)
+-[jQueryUI 1.11.4](https://jqueryui.com/)
+-[DataTables](https://datatables.net/)
+-[imagesLoaded v4.1.0](http://imagesloaded.desandro.com/)
+-[Ideal Image Slider v1.5.1](http://idealimageslider.com/)
+-[Instafeed](http://instafeedjs.com/)
+-[jquery-timepicker v1.8.9](http://jonthornton.github.com/jquery-timepicker/)
+-[Lightbox v2.8.2](http://lokeshdhakar.com/projects/lightbox2/)
+-[Masonry v4.0.0](http://masonry.desandro.com)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+It also makes use of [Google's Recaptcha](https://www.google.com/recaptcha/intro/index.html) and the [Instagram API](https://www.instagram.com/developer/).
