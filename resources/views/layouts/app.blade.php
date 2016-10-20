@@ -104,7 +104,7 @@
                     <div id="contact-footer" class="col-md-12">
                         <ul class="list-inline">
                             <li><span class="glyphicon glyphicon-earphone"></span> (705)874-1520</li>
-                            <li class="pull-right"><span class="glyphicon glyphicon-phone-alt"></span> inquiries@tattsbybree.com</li>
+                            <li class="pull-right"><span class="glyphicon glyphicon-envelope"></span> inquiries@tattsbybree.com</li>
                         </ul> 
                     </div>
                 </div>
